@@ -2,19 +2,19 @@
 
 # Собрать контейнеры
 build:
-	docker-compose build
+	docker compose build
 
 # Запустить контейнеры в фоне
 up:
-	docker-compose up -d
+	docker compose up -d
 
 # Остановить и удалить контейнеры
 down:
-	docker-compose down
+	docker compose down
 
 # Просмотр логов приложения
 logs:
-	docker-compose logs -f app
+	docker compose logs -f app
 
 # Запустить тесты (если есть)
 test:
